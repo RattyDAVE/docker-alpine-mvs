@@ -26,5 +26,5 @@ ENV HERCULES_RC scripts/tk4-.rc
 ENV TK4CONS extcons
 
 WORKDIR     /opt/hercules/tk4/
-ENTRYPOINT  ["/opt/hercules/tk4/mvs"]
+#ENTRYPOINT  ["/opt/hercules/tk4/mvs"]
 CMD hercules -f conf/tk4-.cnf
